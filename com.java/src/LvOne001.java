@@ -1,5 +1,3 @@
-import java.security.cert.TrustAnchor;
-
 public class LvOne001 {
 
     public int mySolution(String s){
@@ -19,8 +17,8 @@ public class LvOne001 {
                 value = num + value * 10;
             }
 
-        }
 
+        }
         return (plus==true)? value : -1*value;
     }
 
