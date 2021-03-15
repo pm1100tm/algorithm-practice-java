@@ -1,5 +1,6 @@
 import java.io.PrintWriter;
 
+/** 수박수박수박수박수박수 */
 public class LvOne002 {
     /**
      * @author pm1100tm
