@@ -1,7 +1,12 @@
 import java.util.Arrays;
 
+/** 김서방 찾기 */
 public class LvOne007 {
-    
+    /**
+     * @author swd
+     * @param  seoul : String[]
+     * @return answer
+     */
     public static String mySolution(String[] seoul) {
         int count = 0;
         for (String name : seoul) {

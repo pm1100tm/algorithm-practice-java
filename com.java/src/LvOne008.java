@@ -1,12 +1,11 @@
-import java.security.Principal;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
+/** 같은 숫자는 싫어 */
 public class LvOne008 {
     
     public static int[] mySolution(int[] arr) {
-        HashMap<Integer, Integer> hash = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> hash = new HashMap<>();
         
         for (int key : arr) {
             if (hash.size() == 0) {
